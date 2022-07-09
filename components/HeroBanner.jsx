@@ -16,7 +16,7 @@ const HeroBanner = () => {
         />
       </div> */}
       <div
-        className={`bannerArea px-10 py-8 mx-auto md:mt-10 h-[21rem] shadow-[#C4FB6D] bg-[#A7D129] ${classes.card} rounded-3xl hover:cursor-pointer`}
+        className={`bannerArea px-10 py-8 mx-auto md:mt-10 min-h-[21rem] shadow-[#C4FB6D] bg-[#A7D129] ${classes.card} rounded-3xl hover:cursor-pointer`}
       >
         <h3 className=" leading-loose text-xl text-[#616F39] font-medium">
           SMALL TEXT
@@ -25,11 +25,11 @@ const HeroBanner = () => {
           MID TEXT
         </h1>
         <Link href="/">
-          <button className=" px-8 py-3 my-12 bg-[#0F0E0E] rounded-3xl rounded-tl-none hover:rounded-none hover:bg-slate-50 hover:text-[#0F0E0E] transition-all">
+          <button className=" px-8 py-3 mt-10 mb-16 bg-[#0F0E0E] rounded-3xl rounded-tl-none hover:rounded-none hover:bg-slate-50 hover:text-[#0F0E0E] transition-all">
             CLICK ME
           </button>
         </Link>
-        <div className=" text-right">
+        <div className=" text-right mt-5">
           <h5 className=" text-lg font-semibold text-[#1A4D2E]">Description</h5>
           <p className=" text-[#346751]">DESCRIPTION</p>
         </div>
